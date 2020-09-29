@@ -5,9 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width:768px)">
-        <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:1100px)">
+        <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:1024px)">
         <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
         <title>Clipboard</title>
+        <link rel="shortcut icon" href="./images/favicon-32x32.png">
     </head>
     <body>
         <main>
@@ -17,8 +18,10 @@
                 </figure>
                 <h1>A history of everything you copy</h1>
                 <p>Clipboard allows you to crack and organize ererything you copy. Instantly access your Clipboard on all your divices.</p>
-                <button class="ios-button">Download for iOS</button>
-                <button class="mac-button">Download for Mac</button>
+                <div class="button">
+                    <button class="ios-button">Download for iOS</button>
+                    <button class="mac-button">Download for Mac</button>
+                </div>
             </section>
             <section class="cloud-container">
                 <h2>Keep track of your snippets</h2>
@@ -47,7 +50,7 @@
             <section class="workflow-container">
                 <h2>Supercharge your workflow</h2>
                 <p>We've got the tools to boost your productivity.</p>
-                <div>
+                <div class="workflow-container--inf">
                     <div>
                         <figure class="cloud-container--inf--figure">
                             <img src="./images/icon-blacklist.svg" alt="Icono de lista negra" class="cloud-container--inf--figure--icon">
@@ -91,8 +94,10 @@
             <section class="download-container">
                 <h2>Clipboard for iOS and Mac OS</h2>
                 <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard.</p>
-                <button class="ios-button">Download for iOS</button>
-                <button class="mac-button">Download for Mac</button>
+                <div class="button">
+                    <button class="ios-button">Download for iOS</button>
+                    <button class="mac-button">Download for Mac</button>
+                </div>
             </section>
         </main>
         <footer>
@@ -101,23 +106,17 @@
             </figure>
             <nav>
                 <ul>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Press Kit</a></li>
-                    <li><a href="#">Install Guide</a></li>
+                    <li class="one"><a href="#">FAQs</a></li>
+                    <li class="two"><a href="#">Contact Us</a></li>
+                    <li class="three"><a href="#">Privacy Policy</a></li>
+                    <li class="four"><a href="#">Press Kit</a></li>
+                    <li class="five"><a href="#">Install Guide</a></li>
                 </ul>
             </nav>
             <div class="redes">
-                <figure>
-                    <img src="./images/icon-facebook.svg" alt="Icono de Facebook">
-                </figure>
-                <figure>
-                    <img src="./images/icon-twitter.svg" alt="Icono de twitter">
-                </figure>
-                <figure>
-                    <img src="./images/icon-instagram.svg" alt="Icono de instagram">
-                </figure>
+                <figure class="redes--facebook"></figure>
+                <figure class="redes--twitter"></figure>
+                <figure class="redes--instagram"></figure>
             </div>
         </footer>
     </body>

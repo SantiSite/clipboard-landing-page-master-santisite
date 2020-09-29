@@ -14,7 +14,7 @@ body {
 }
 
 main {
-    width: 91%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -22,6 +22,10 @@ h1,
 h2,
 h3 {
     color: var(--Dark-Grayish-Blue);
+}
+
+h1 {
+    margin: 0 40px;
 }
 
 h2 {
@@ -44,6 +48,10 @@ a {
     color: var(--Dark-Grayish-Blue);
 }
 
+a:hover{
+    color: var(--Strong-Cyan);
+}
+
 li {
     list-style: none;
 }
@@ -62,7 +70,8 @@ li {
 .factories-container,
 .download-container,
 footer {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -70,12 +79,24 @@ footer {
     text-align: center;
 }
 
+.intro-container {
+    width: 100%;
+    background-image: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+}
+
 .intro-container--figure {
     margin: 60px auto;
 }
 
 .intro-container p {
-    margin-top: 30px;
+    margin: 30px 12px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button {
@@ -86,21 +107,32 @@ button {
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 600;
     font-size: 1.6rem;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
 }
 
 .ios-button {
     background-color: var(--Strong-Cyan);
-    box-shadow: 0px 10px 15px -5px rgba(38, 112, 101, .3);
     border: none;
     border-bottom: solid 3px hsl(171deg 54% 34%);
+}
+
+.ios-button:hover {
+    box-shadow: 0px 10px 15px -5px rgba(38, 112, 101, .3);
 }
 
 .mac-button {
     margin-top: 15px;
     background-color: var(--Light-Blue);
-    box-shadow: 0px 10px 15px -5px rgba(0, 20, 175, .3);
     border: none;
     border-bottom: solid 3px rgb(0 6 50 / 30%);
+}
+
+.mac-button:hover {
+    box-shadow: 0px 10px 15px -5px rgba(0, 20, 175, .3);
 }
 
 .cloud-container--inf--figure {
@@ -149,8 +181,47 @@ footer .cloud-container--inf--figure img {
     margin-bottom: 30px;
 }
 
-.redes figure img {
+.redes figure {
     padding: 0 20px;
+}
+
+.redes--facebook {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/icon-facebook.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.redes--facebook:hover {
+    background-image: url(../images/icon-facebook-blue.svg);
+}
+
+.redes--twitter {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/icon-twitter.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.redes--twitter:hover {
+    background-image: url(../images/icon-twitter-blue.svg);
+}
+
+.redes--instagram {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/icon-instagram.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.redes--instagram:hover {
+    background-image: url(../images/icon-instagram-blue.svg);
+}
+
+footer {
+    width: 100%;
 }
 
 footer nav ul {

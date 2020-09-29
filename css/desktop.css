@@ -1,0 +1,88 @@
+main {
+    width: 100%;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+.button {
+    display: inline-block;
+}
+
+.mac-button {
+    margin-top: 0;
+}
+
+button {
+    border-radius: 30px;
+    margin: 0 10px;
+    padding: 10px 30px ;
+}
+
+.intro-container {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+
+.intro-container p,
+.cloud-container p {
+    width: 666px;
+}
+
+.cloud-container--inf {
+    display: flex;
+    text-align: left;
+}
+
+.cloud-container--inf p {
+    width: 407px;
+}
+
+.cloud-container .cloud-container--inf .cloud-container--inf--figure {
+    width: 100%;
+}
+
+.cloud-container .cloud-container--inf  .cloud-container--inf--figure img {
+    width: 110%;
+    height: 470px;
+    position: relative;
+    left: calc(-25%);
+}
+
+.cloud-container--inf--details {
+    width: 75%;
+    padding-top: 50px;
+}
+
+.anywhere-container p {
+    width: 660px;
+}
+
+.workflow-container p {
+    margin-bottom: 100px;
+}
+
+.workflow-container--inf {
+    display: flex;
+}
+
+.workflow-container--inf p {
+    width: 365px;
+}
+
+.factories-container {  
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.google {
+    margin: 0;
+}
+
+.download-container p{
+    width: 680px;
+}

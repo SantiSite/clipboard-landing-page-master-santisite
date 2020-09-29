@@ -1,0 +1,52 @@
+footer {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer nav ul {    
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.three {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.four {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.five {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    margin-right: 80px;
+}
+
+.five {
+    margin: 0;
+}
+
+.redes {
+    margin-bottom: 0;
+}
