@@ -167,6 +167,7 @@ img {
 }
 
 footer {
+    width: 100%;
     margin-top: 150px;
     background-color: #eaf0f2;
 }
@@ -218,10 +219,6 @@ footer .cloud-container--inf--figure img {
 }
 .redes--instagram:hover {
     background-image: url(../images/icon-instagram-blue.svg);
-}
-
-footer {
-    width: 100%;
 }
 
 footer nav ul {
