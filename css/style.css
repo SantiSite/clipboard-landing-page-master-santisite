@@ -146,10 +146,11 @@ footer .cloud-container--inf--figure img {
 
 .redes {
     display: flex;
+    margin-bottom: 30px;
 }
 
 .redes figure img {
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 footer nav ul {
