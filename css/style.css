@@ -83,6 +83,7 @@ footer {
     width: 100%;
     background-image: url(../images/bg-header-mobile.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .intro-container--figure {
